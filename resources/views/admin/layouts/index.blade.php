@@ -31,13 +31,15 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
+                  @auth
+                  <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                       <li><a href="{{ route('categories.index') }}">Категории</a></li>
                       <li><a href="{{ route('products.index') }}">Товары</a>
                       </li>
                       <li><a href="{{ route('admin') }}">Заказы</a></li>
                     </ul>
+                    @endauth
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">

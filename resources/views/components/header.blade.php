@@ -5,7 +5,7 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-              <li ><a href="{{ route('index') }}">Все товары</a></li>
+              <li class="active"><a href="{{ route('index') }}">Все товары</a></li>
               <li ><a href="{{ route('categories') }}">Категории</a>
               </li>
               <li ><a href="{{ route('cart') }}">В корзину</a></li>
